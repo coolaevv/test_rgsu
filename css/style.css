@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Play', sans-serif;
+}
+
+/* Форма входа */
+
+.login-form{
+	width: 500px;
+	padding: 30px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.login-form .title-form{
+	margin-bottom: 10px;
+	color: #3498db;
+	text-align: center;
+}
+.login-form .error{
+	color: #e74c3c;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.login-form input[type="text"], input[type="password"]{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #34495e;
+	outline: none;
+}
+.login-form input[type="submit"]{
+	width: 50%;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-top: 8px;
+	background-color: #3498db;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	outline: none;
+}
+/* Форма входа */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Форма загрузки данных */
+.load-data{
+	width: 500px;
+	padding: 30px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	grid-template-columns: 70% 30%;
+	column-gap: 1%;
+}
+.load-data input{
+	border: 1px solid #bdc3c7;
+	border-radius: 5px;
+	padding: 5px;
+}
+.load-data input[type="submit"]{
+	background-color: #3498db;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+	width: 70%;
+	margin: 10px auto;
+}
+.container .card-body{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.container .card-body .pets{
+	display: grid;
+	grid-template-rows: repeat(6, 1fr);
+	grid-row-gap: 10px;
+}
